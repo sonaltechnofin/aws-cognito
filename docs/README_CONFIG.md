@@ -141,7 +141,7 @@ The following environment variables are optional and can be used to customize th
 
 #### Session Timeout Configuration
 
-You can configure the session timeout in your `.env` file, aligned with the cognito access token validity, use the `SESSION_LIFETIME` and `AUTH_PASSWORD_TIMEOUT` parameters. This value is in minutes with the default value being 120 mins i.e. 2 hours. This will ensure that the laravel session times out at the same time as the access token. For example:
+You can configure the session timeout in your `.env` file, aligned with the cognito access token validity, use the `SESSION_LIFETIME` and `AUTH_PASSWORD_TIMEOUT` parameters. This value is in minutes with the default value being 120 mins i.e. 2 hours. This will ensure that the Laravel session times out at the same time as the access token. For example:
 
 ```env
 SESSION_LIFETIME=120 // in minutes
