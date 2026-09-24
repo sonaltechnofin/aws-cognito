@@ -143,7 +143,7 @@ The trait triggers `PreRegistrationEvent` and `PostRegistrationEvent` events bef
 
 The verification of the user is handled by the `VerifiesEmails` trait. You can use the preconfigured controller and routes provided by us or you can implement your own controller and routes.
 
-The trait has two key methods, `verify` and `resend`. As the name suggests, the verify method is used to verify the users email and/or phone. The resend method is to be called incase the user has not received the email or the code/link has expired. The resend method will send a new verification link to the user.
+The trait has two key methods, `verify` and `resend`. As the name suggests, the verify method is used to verify the users email and/or phone. The resend method is to be called in case the user has not received the email or the code/link has expired. The resend method will send a new verification link to the user.
 
 After the user is successfully verified, the status of the user is `CONFIRMED` and email is `VERIFIED`.
 
