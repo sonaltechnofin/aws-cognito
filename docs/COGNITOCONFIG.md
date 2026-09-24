@@ -85,7 +85,7 @@ Once the new user pool is created, navigate by selecting the **User pools** from
 
 By selecting the **Overview** from the left menu, you will be able to see the **Pool Id** and **Pool ARN**. Please save these parameters.
 
-The **Pool Id** will be used in the laravel environment file as `AWS_COGNITO_POOL_ID` value.
+The **Pool Id** will be used in the Laravel environment file as `AWS_COGNITO_POOL_ID` value.
 
 Select the **App clients** from the left menu, under the **Application** section. It will show a list of the app clients. Select the app client that you created in the previous step.
 
@@ -95,7 +95,7 @@ Select the **App clients** from the left menu, under the **Application** section
 ![AWS Cognito - App Client](../assets/images/aws_cognito_flow5.png)
 
 This page will show the **Client Id** and **Client Secret**.
-Please save these parameters. You will need to set them in the laravel environment file to reference `AWS_COGNITO_CLIENT_ID` and `AWS_COGNITO_CLIENT_SECRET` values.
+Please save these parameters. You will need to set them in the Laravel environment file to reference `AWS_COGNITO_CLIENT_ID` and `AWS_COGNITO_CLIENT_SECRET` values.
 
 You can copy the values by clicking the blue copy icon next to the values (highlighted by the red arrow).
 
